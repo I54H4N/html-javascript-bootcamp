@@ -5,7 +5,7 @@ let output = document.getElementById("outputText");
 function showGreeting() {
   let name = nameBox.value;
 
-  if (name == "") {
+  if (name === "") {
     output.innerHTML = "Please enter your name";
   } else {
     output.innerHTML = "Hello, " + name + "!"
