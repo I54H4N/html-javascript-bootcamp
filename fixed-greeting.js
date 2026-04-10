@@ -12,4 +12,4 @@ function showGreeting() {
   }
 }
 
-button.addEventListner("click", showGreeting);
+button.addEventListener("click", showGreeting);
