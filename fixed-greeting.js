@@ -1,5 +1,5 @@
 let button = document.getElementById("greetBtn");
-let nameBox = document.getElementById("userName");
+let nameBox = document.getElementById("username");
 let output = document.getElementById("outputText");
 
 function showGreeting() {
